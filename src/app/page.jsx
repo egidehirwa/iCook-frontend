@@ -22,8 +22,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
 
-    <main >
-      <div>This is the Nextjs app</div>
+    <main>
+      <div className="bg-red-100">This is the Nextjs app</div>
 
 
     </main>
