@@ -1,5 +1,7 @@
 
+
 import { Rubik, Inter } from "@next/font/google";
+
 
 
 // Testing font variables with Tailwind
@@ -19,8 +21,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
+
     <main >
       <div>This is the Nextjs app</div>
+
+
     </main>
   );
 }
