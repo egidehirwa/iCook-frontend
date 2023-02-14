@@ -20,7 +20,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div>This is the Nextjs app</div>
+      <div>This is the Nextjs</div>
     </main>
   );
 }
