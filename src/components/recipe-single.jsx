@@ -11,8 +11,8 @@ export default function RecipeSingle() {
           <Image
             src="/src/assets/recipe-single-image.jpg"
             alt="image"
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
 
           <div>
