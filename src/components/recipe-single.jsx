@@ -5,7 +5,7 @@ export default function RecipeSingle() {
   return (
     <main className="container mx-auto">
       <div>
-        <h1>Recipe Heading</h1>
+        <h1>Recipe Title</h1>
         <div>
           {/* Recipe Image */}
           <Image
