@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center ">
           <SearchBar/>
-          <button className="ml-2 pl-2 pr-2 rounded-md bg-red-700 border-2 border-red-700 text-white transition-colors duration-700 transform hover:bg-white hover:text-red-700 hover:border-2 hover:border-red-700">Search for recipe</button>
+          <button className="ml-2 pl-2 pr-2 rounded-md h-12 bg-red border-2 border-red text-white transition-colors transform hover:bg-white hover:text-red hover:border-2 hover:border-red">Search for recipe</button>
         </div>
         <Ingredient />
       </div>
