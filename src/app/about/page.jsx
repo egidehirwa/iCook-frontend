@@ -21,7 +21,7 @@ export default function About() {
     <main className="container mx-auto space-y-8">
       <section className="space-y-4 p-8">
         <div className="space-y-4">
-          <h3 className="text-red-500 text-3xl text-center">Who We Are</h3>
+          <h3 className="text-[red] text-3xl text-center">Who We Are</h3>
           <p className=" text-center">
              
             We are a team of passionate individuals who are dedicated to
