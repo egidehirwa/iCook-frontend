@@ -7,12 +7,14 @@ import Daria from "/src/assets/Daria.jpeg";
 import Edouard from "/src/assets/Edouard.jpg";
 import Kawtar from "/src/assets/kawtar.jpg";
 import Youssef from "/src/assets/youssef.jpg";
+import Mission from "/src/assets/mission.png"
+import Eye from "/src/assets/eye.png"
 
 // import { GrTarget} from "react-icons/gr"
 // import { GrView} from "react-icons/gr"
 
 import { EyeIcon } from "@heroicons/react/24/outline";
-import { FlagIcon } from "@heroicons/react/24/outline";
+// import { FlagIcon } from "@heroicons/react/24/outline";
 
 export default function About() {
   return (
@@ -21,7 +23,7 @@ export default function About() {
         <div className="space-y-4">
           <h3 className="text-red-500 text-3xl text-center">WHO WE ARE</h3>
           <p className="text-center">
-            {" "}
+             
             We are a team of passionate individuals who are dedicated to
             reducing food waste while making cooking easy and enjoyable. We
             believe that food waste is a global problem that can be solved by
@@ -36,7 +38,12 @@ export default function About() {
         </div>
         <div className="flex gap-4 justify-center">
           <div className="bg-white rounded-lg shadow-md max-w-sm rounded overflow-hidden shadow-lg p-6">
-            <FlagIcon className="h-10 w-10 mx-auto mb-2 fill-white-100	border-red-500" />
+          
+
+          <Image  className=" mx-auto object-center" alt =" " src={Mission} layoutobjectFit="contain" 
+                width={70}
+                height={70}/>
+            {/* <FlagIcon className="h-10 w-10 mx-auto mb-2 fill-white-100	border-red-500" /> */}
             {/* <GrTarget  /> */}
             {/* <img src="iCook-frontend/src/assets/mission.png"></img> */}
             <h2 className="text-lg text-center font-medium">Mission</h2>
@@ -48,7 +55,9 @@ export default function About() {
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <EyeIcon className="h-10 w-10 mx-auto mb-2 fill-transparent	border-red-500" />
+          <Image  className=" mx-auto object-center" alt =" " src={Eye} layoutobjectFit="contain" 
+                width={70}
+                height={70}/>{/* <EyeIcon className="h-10 w-10 mx-auto mb-2 fill-transparent border border-red-500" /> */}
             {/* <GrView  /> */}
 
             <h2 className="text-lg text-center font-medium">Vision</h2>
