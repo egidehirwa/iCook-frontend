@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
         <div className="w-1/2 flex justify-around">
           <Link href="/privacy policy">Privacy policy</Link>
-          <Link href="/about us">About us</Link> 
+          <Link href="/about">About us</Link> 
         </div>
       </div>
 

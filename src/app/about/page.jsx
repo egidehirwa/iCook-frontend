@@ -8,7 +8,7 @@ export default function About() {
     <main className="container mx-auto space-y-8">
       <section className="space-y-4 p-8"> 
         <div className="space-y-4">
-          <h3 className="text-red-500 text-3xl text-center">WHO WE ARE</h3>
+          <h3 className="text-[red] text-3xl text-center">WHO WE ARE</h3>
           <p className="text-center"> Sweet dragée gummies wafer dragée candy gingerbread sweet.
             Icing jelly beans soufflé icing gingerbread danish tootsie roll biscuit chupa chups. 
             Halvah cake sweet roll powder gummies pastry. Liquorice croissant bonbon cookie cake marzipan. 
@@ -52,7 +52,7 @@ export default function About() {
       </div>
 
       <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-        <h2 className="text-lg text-center font-medium">Kawtar</h2>
+        <h2 className="text-lg text-center font-medium text-[red]">Kawtar</h2>
         <img></img>
         <p className="mt-2 text-gray-600">Add the description of the missions here</p>
       </div>
