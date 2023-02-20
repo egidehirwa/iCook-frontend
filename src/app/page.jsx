@@ -28,7 +28,7 @@ export default function Home() {
     <main className="justify-center flex flex-col h-screen ">
       <div className=" text-center bg-red-100 h-3/5 flex flex-col ">
         <div className="pb-8">
-          <h1 className=" atext-7xl">What is in your fridge ?</h1>
+          <h1 className=" text-7xl">What is in your fridge ?</h1>
         </div>
         <div className="flex justify-center ">
           <SearchBar/>
