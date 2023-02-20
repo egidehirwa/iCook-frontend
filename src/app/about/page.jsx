@@ -21,8 +21,8 @@ export default function About() {
     <main className="container mx-auto space-y-8">
       <section className="space-y-4 p-8">
         <div className="space-y-4">
-          <h3 className="text-red-500 text-3xl text-center">WHO WE ARE</h3>
-          <p className="text-center">
+          <h3 className="text-red-500 text-3xl text-center">Who We Are</h3>
+          <p className=" text-center">
              
             We are a team of passionate individuals who are dedicated to
             reducing food waste while making cooking easy and enjoyable. We
@@ -74,7 +74,7 @@ export default function About() {
 
       <section className="space-y-4 p-4">
         <div className="space-y-4">
-          <h3 className="text-red-500 text-3xl text-center">TEAM</h3>
+          <h3 className="text-red-500 text-3xl text-center">Team</h3>
           <p className="text-center">
             
             We are a small but dedicated team of 6 passionate individuals who
@@ -91,7 +91,7 @@ export default function About() {
         </div>
         <div className="flex gap-4">
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="text-lg text-center font-medium">Audric</h2>
+            <h2 className="text-lg text-center text-red-500 font-medium">Audric</h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
               <Image
                 alt=" "
@@ -110,7 +110,7 @@ export default function About() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="text-lg text-center font-medium">Daria</h2>
+            <h2 className="text-lg text-red-500 text-center font-medium">Daria</h2>
             <div style={{ borderRadius: "100%", overflow: "hidden", }}>
               <Image
                 src={Daria}
@@ -129,7 +129,7 @@ export default function About() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="text-lg text-center font-medium">Kawtar</h2>
+            <h2 className="text-lg text-red-500 text-center font-medium">Kawtar</h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
               <Image
                 src={Kawtar}
@@ -149,7 +149,7 @@ export default function About() {
         </div>
         <div className="flex gap-4">
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="text-lg text-center font-medium">Egide</h2>
+            <h2 className="text-lg text-red-500 text-center font-medium">Egide</h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
               <Image
                 src={Egide}
@@ -168,7 +168,7 @@ export default function About() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="text-lg text-center font-medium">Edouard</h2>
+            <h2 className="text-lg text-red-500 text-center font-medium">Edouard</h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
               <Image
                 src={Edouard}
@@ -187,7 +187,7 @@ export default function About() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="text-lg text-center font-medium">Youssef</h2>
+            <h2 className="text-lg text-red-500 text-center font-medium">Youssef</h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
               <Image
                 src={Youssef}
