@@ -27,10 +27,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="justify-center flex flex-col h-screen ">
-      <div className=" w-full flex  bg-orange-600 "><h1>Header</h1></div>
-      <div className=" text-center bg-orange-100 h-4/5 flex flex-col justify-center">
+      <div className=" text-center bg-red-100 h-3/5 flex flex-col ">
         <div className="pb-8">
-          <h1 className="text-5xl">What is in your fridge ?</h1>
+          <h1 className="text-7xl">What is in your fridge ?</h1>
         </div>
         <div className="flex justify-center ">
           <SearchBar/>
@@ -39,7 +38,6 @@ export default function Home() {
         </div>
         <Ingredient />
       </div>
-      <div className=" flex self-center w-full bg-orange-200"><h1>Footer</h1></div>
     </main>
     
   );
