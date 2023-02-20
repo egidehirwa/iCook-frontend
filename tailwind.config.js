@@ -35,7 +35,8 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-rubik)"],
         mono: ["var(--font-poppins)"],
-      },
+        satisfy: ['Satisfy', 'cursive'],
+      }, 
       borderRadius: {
         default: "4px",
         large: "12px",
