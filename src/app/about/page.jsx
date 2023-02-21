@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Rubik, Inter } from "@next/font/google";
 import Egide from "/src/assets/Egide.jpg";
-
 import Audric from "/src/assets/audric.jpg";
 import Daria from "/src/assets/Daria.jpeg";
 import Edouard from "/src/assets/Edouard.jpg";
