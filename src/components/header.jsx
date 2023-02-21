@@ -19,7 +19,7 @@ const Header = () => {
           </Link>
         </button>
         <button className="bg-yellow px-8 items-center rounded-xl hover:bg-white hover:border-[1px] hover:border-gray-600">
-          <Link href="/random-recipe" className="">
+          <Link href="/RandomRecipe" className="">
             Random Recipe
           </Link>
         </button>
