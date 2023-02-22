@@ -12,13 +12,13 @@ const Header = () => {
           className="w-[220px] pt-12"
         />
       </Link>
-      <div className="flex flex-col lg:flex-row justify-around lg:w-1/2 pt-6 border-gray-600">
-        <button className="bg-yellow shadow-md px-8 min-h-[40px] items-center rounded-xl hover:bg-white hover:border-[1px] hover:border-gray-600">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-around lg:w-1/2 pt-6 border-gray-600">
+        <button className="bg-yellow shadow-md px-8 min-h-[40px] items-center hover:border-[1px] hover:border-gray-600 rounded-xl hover:bg-lightgrey transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
           <Link href="/search-result" className="">
             Recipe by category
           </Link>
         </button>
-        <button className="bg-yellow shadow-md px-8 min-h-[40px] items-center rounded-xl hover:bg-white hover:border-[1px] hover:border-gray-600">
+        <button className="bg-yellow shadow-md px-8 min-h-[40px] items-center hover:border-[1px] hover:border-gray-600 rounded-xl hover:bg-lightgrey transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
           <Link href="/randomRecipe" className="">
             Random Recipe
           </Link>
