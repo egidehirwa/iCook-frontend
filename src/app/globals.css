@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   background-color: #F6F4F2;
@@ -16,8 +15,11 @@ a {
   text-decoration: none;
 }
 
-Footer {
-  background-color: blue;
-}
+
+
+
+
+
+
 
 
