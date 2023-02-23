@@ -1,6 +1,14 @@
+
+
+
 import SearchBar from "@/components/searchbar";
 import { Rubik, Inter } from "@next/font/google";
-import Ingredient from "@/components/ingredient";
+import Ingredients from "@/components/ingredients";
+
+
+
+
+
 
 
 
@@ -31,10 +39,10 @@ export default function Home() {
           <h1 className="font-satisfy text-7xl">What is in your fridge ?</h1>
         </div>
         <div className="flex justify-center ">
-          <SearchBar/>
+          <SearchBar />
           <button className="ml-2 pl-2 pr-2 rounded-md h-12 bg-red border-2 border-red text-white transition-colors transform hover:bg-white hover:text-red hover:border-2 hover:border-red">Search for recipe</button>
         </div>
-        <Ingredient />
+        <Ingredients/>
       </div>
     </main>
   );
