@@ -2,12 +2,15 @@
 
 
 import SearchBar from "@/components/searchbar";
-import { Rubik, Inter } from "@next/font/google";
-import Ingredients from "@/components/ingredients";
 
 
 
 
+
+
+
+import { Rubik, Inter, Satisfy } from "@next/font/google";
+import Ingredient from "@/components/ingredient";
 
 
 
@@ -24,10 +27,8 @@ const poppins = Poppins({
   display: "swap",
 }); */
 
-const rubik = Rubik({ subsets: ["latin"] });
+const rubik = Rubik({  subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
-
-
 
 
 export default function Home() {

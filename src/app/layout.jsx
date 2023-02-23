@@ -1,10 +1,11 @@
 import React from 'react';
-import Header from "../components/header";
-import Footer from "../components/footer";
-import './globals.css';
+import Header from "src/components/header.jsx";
+import Footer from "src/components/footer.jsx";
+import "src/app/globals.css";
 
 export default function RootLayout({ children }) {
   return (
+
 
     <body>
       <div className='flex flex-col min-h-screen'>
@@ -13,5 +14,6 @@ export default function RootLayout({ children }) {
       <Footer />
     </div>
     </body>
+
   );
 }
