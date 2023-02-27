@@ -1,6 +1,6 @@
-import SearchBar from "@/components/searchbar";
-import { Rubik, Inter } from "@next/font/google";
-import Ingredient from "@/components/ingredient";
+import SearchBar from "@/components/HomePage/searchbar";
+import { ReactDOM } from "react";
+import TodoApp from "@/components/HomePage/ingredientApp";
 
 export default function Home() {
   return (
