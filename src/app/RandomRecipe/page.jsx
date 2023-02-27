@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Rubik, Inter } from "@next/font/google";
 
 
 

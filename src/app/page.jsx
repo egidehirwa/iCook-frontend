@@ -1,8 +1,7 @@
 
-import SearchBar from "@/components/searchbar";
-import { Satisfy } from "@next/font/google";
+import SearchBar from "@/components/HomePage/searchbar";
 import { ReactDOM } from "react";
-import TodoApp from "@/components/ingredientApp";
+import TodoApp from "@/components/HomePage/ingredientApp";
 
 
 
