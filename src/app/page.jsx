@@ -1,6 +1,41 @@
+<<<<<<< HEAD
 import SearchBar from "@/components/HomePage/searchbar";
 import { ReactDOM } from "react";
 import TodoApp from "@/components/HomePage/ingredientApp";
+=======
+
+
+
+import SearchBar from "@/components/searchbar";
+
+
+>>>>>>> parent of 3822000 (some issues solved)
+
+
+
+
+
+import { Rubik, Inter, Satisfy } from "@next/font/google";
+import Ingredient from "@/components/ingredient";
+
+
+
+
+// Testing font variables with Tailwind
+
+/* const rubik = Rubik({
+  variable: "--font-rubik",
+  display: "swap",
+});
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  display: "swap",
+}); */
+
+const rubik = Rubik({  subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
+
 
 export default function Home() {
   return (
@@ -16,7 +51,11 @@ export default function Home() {
             Search for recipe
           </button>
         </div>
+<<<<<<< HEAD
         <div id="root"></div>
+=======
+        <Ingredients/>
+>>>>>>> parent of 3822000 (some issues solved)
       </div>
     </main>
     
