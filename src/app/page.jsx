@@ -10,7 +10,7 @@ import SearchBar from "@/components/searchbar";
 
 
 import { Rubik, Inter, Satisfy } from "@next/font/google";
-import Ingredient from "@/components/ingredient";
+import Ingredients from "@/components/ingredients";
 
 
 

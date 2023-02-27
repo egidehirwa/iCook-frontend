@@ -4,6 +4,7 @@ import IngredientCard from "./ingredientCard";
 // import SearchBar from "./searchbar";
 
 const Ingredients = ()=>{
+  const Ingredient = ()=>{
  return(
     <div id="root" name='ingredients container'className=" pt-5 flex justify-center">
       <IngredientCard/>
@@ -11,4 +12,4 @@ const Ingredients = ()=>{
  )
 }
 
-export default Ingredients;
+export default Ingredient;export default Ingredients;
