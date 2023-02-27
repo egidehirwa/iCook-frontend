@@ -18,6 +18,7 @@ import { EyeIcon } from "@heroicons/react/24/outline";
 
 export default function About() {
   return (
+  <html>
     <main className="container mx-auto space-y-8">
       <section className="space-y-4 p-8">
         <div className="space-y-4">
@@ -227,6 +228,7 @@ export default function About() {
         </div>
       </section>
     </main>
+    </html>
   );
 }
 
