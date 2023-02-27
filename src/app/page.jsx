@@ -1,34 +1,9 @@
 
-
-
 import SearchBar from "@/components/searchbar";
+import { Satisfy } from "@next/font/google";
+import { ReactDOM } from "react";
+import TodoApp from "@/components/ingredientApp";
 
-
-
-
-
-
-
-import { Rubik, Inter, Satisfy } from "@next/font/google";
-import Ingredients from "@/components/ingredients";
-
-
-
-
-// Testing font variables with Tailwind
-
-/* const rubik = Rubik({
-  variable: "--font-rubik",
-  display: "swap",
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  display: "swap",
-}); */
-
-const rubik = Rubik({  subsets: ["latin"] });
-const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Home() {
@@ -43,7 +18,7 @@ export default function Home() {
           <SearchBar />
           <button className="ml-2 pl-2 pr-2 rounded-md h-12 bg-red border-2 border-red text-white transition-colors transform hover:bg-white hover:text-red hover:border-2 hover:border-red">Search for recipe</button>
         </div>
-        <Ingredients/>
+        <div id='root'></div>
       </div>
     </main>
   );
