@@ -1,6 +1,5 @@
-
-
 import Image from "next/image";
+import { Rubik, Inter } from "@next/font/google";
 import Egide from "/src/assets/Egide.jpg";
 import Audric from "/src/assets/audric.jpg";
 import Daria from "/src/assets/Daria.jpeg";
@@ -18,7 +17,6 @@ import { EyeIcon } from "@heroicons/react/24/outline";
 
 export default function About() {
   return (
-  <html>
     <main className="container mx-auto space-y-8">
       <section className="space-y-4 p-8">
         <div className="space-y-4">
@@ -37,7 +35,7 @@ export default function About() {
           </p>
         </div>
         <div className="flex gap-4 justify-center">
-          <div className="bg-white rounded-lg shadow-md max-w-sm overflow-hidden p-6">
+          <div className="bg-white rounded-lg shadow-md max-w-sm rounded overflow-hidden shadow-lg p-6">
             <Image
               className=" mx-auto object-center"
               alt=" "
@@ -58,7 +56,7 @@ export default function About() {
               ingredients that are already present in your fridge.
             </p>
           </div>
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <Image
               className=" mx-auto object-center"
               alt=" "
@@ -99,7 +97,7 @@ export default function About() {
           </p>
         </div>
         <div className="flex gap-4">
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden ">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className=" font-satisfy text-lg text-center text-red font-medium">
               Audric
             </h2>
@@ -120,7 +118,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden ">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className=" font-satisfy text-lg text-red text-center font-medium">
               Daria
             </h2>
@@ -141,7 +139,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden ">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className=" font-satisfy text-lg text-red  text-center font-medium">
               Kawtar
             </h2>
@@ -163,7 +161,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex gap-4">
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden ">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className=" font-satisfy text-lg text-red  text-center font-medium">
               Egide
             </h2>
@@ -184,7 +182,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden ">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className="font-satisfy text-lg text-red text-center font-medium">
               Edouard
             </h2>
@@ -205,7 +203,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden ">
+          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className=" font-satisfy text-lg text-red  text-center font-medium">
               Youssef
             </h2>
@@ -228,7 +226,6 @@ export default function About() {
         </div>
       </section>
     </main>
-    </html>
   );
 }
 
