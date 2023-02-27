@@ -15,9 +15,16 @@
     "eslint-config-next": "13.1.6",
     "grommet-icons": "^4.9.0",
     "grommet-styles": "^0.2.0",
+<<<<<<< HEAD
     "next": "^13.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+=======
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uuid": "^9.0.0"
+>>>>>>> c60b9c171958476ab32029d2f0c04844d711d454
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

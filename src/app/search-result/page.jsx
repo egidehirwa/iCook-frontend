@@ -26,7 +26,7 @@ const SearchResult = () => {
               <Image src={icon_fork} alt="icon_fork" className="" />
               <p className="pt-2 pl-6">Serving for: 2 persons</p>
             </div>
-            <button className="bg-grey w-[150px] min-h-[40px] mt-4 md:absolute sm:right-12 shadow-md md:bottom-12 rounded-xl hover:bg-white hover:border-[1px] hover:border-gray-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <button className="bg-grey w-[150px] min-h-[40px] absolute right-12 shadow-md bottom-12 rounded-xl hover:bg-white hover:border-[1px] hover:border-gray-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <Link href="/recipies/recipe" className="">
                 View recipe
               </Link>
