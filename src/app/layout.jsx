@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "src/components/header.jsx";
-import Footer from "src/components/footer.jsx";
+import Header from "@/components/Header/header.jsx";
+import Footer from "@/components/Footer/footer.jsx";
 import "src/app/globals.css";
 
 export default function RootLayout({ children }) {
