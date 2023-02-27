@@ -1,7 +1,7 @@
 import SearchBar from "@/components/searchbar";
 import { Rubik, Inter, Satisfy } from "@next/font/google";
 import Ingredient from "@/components/ingredient";
-
+import "src/app/globals.css";
 
 
 // Testing font variables with Tailwind
@@ -37,3 +37,5 @@ export default function Home() {
     </main>
   );
 }
+
+
