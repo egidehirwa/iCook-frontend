@@ -1,11 +1,11 @@
-import React from "react";
-import { ReactDOM } from "react";
-import Ingredient from "./ingredientsList";
+// import React from "react";
+// import { ReactDOM } from "react";
+// import Ingredient from "./ingredientsList";
 
-const ingredientCard = () => {
-    return React.createElement(
-        <Ingredient/>
-    )
-}
+// const ingredientCard = () => {
+//     return React.createElement(
+//         <Ingredient/>
+//     )
+// }
 
-ReactDOM.render(React.createElement(ingredientCard), )
+// ReactDOM.render(React.createElement(ingredientCard), )
