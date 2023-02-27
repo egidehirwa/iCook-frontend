@@ -1,30 +1,6 @@
-<<<<<<< HEAD
-import SearchBar from "@/components/searchbar";
-import { Rubik, Inter, Satisfy } from "@next/font/google";
-import Ingredient from "@/components/ingredient";
-import "src/app/globals.css";
-
-
-// Testing font variables with Tailwind
-
-/* const rubik = Rubik({
-  variable: "--font-rubik",
-  display: "swap",
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  display: "swap",
-}); */
-
-const rubik = Rubik({  subsets: ["latin"] });
-const inter = Inter({ subsets: ["latin"] });
-
-=======
 import SearchBar from "@/components/HomePage/searchbar";
 import { ReactDOM } from "react";
 import TodoApp from "@/components/HomePage/ingredientApp";
->>>>>>> c60b9c171958476ab32029d2f0c04844d711d454
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "src/components/header.jsx";
-import Footer from "src/components/footer.jsx";
+import Header from "src/components/Header/header.jsx";
+import Footer from "src/components/Footer/footer.jsx";
 import BackToTopButton from "src/components/backToTop.jsx"
 import "src/app/globals.css";
 

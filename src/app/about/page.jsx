@@ -37,11 +37,7 @@ export default function About() {
           </p>
         </div>
         <div className="flex gap-4 justify-center">
-<<<<<<< HEAD
-          <div className="bg-white rounded shadow-md max-w-sm rounded overflow-hidden p-6">
-=======
           <div className="bg-white rounded-lg shadow-md max-w-sm overflow-hidden p-6">
->>>>>>> c60b9c171958476ab32029d2f0c04844d711d454
             <Image
               className=" mx-auto object-center"
               alt=" "
@@ -62,11 +58,7 @@ export default function About() {
               ingredients that are already present in your fridge.
             </p>
           </div>
-<<<<<<< HEAD
-          <div className="bg-white shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-=======
           <div className="bg-white rounded-lg shadow-md p-6 max-w-sm overflow-hidden">
->>>>>>> c60b9c171958476ab32029d2f0c04844d711d454
             <Image
               className=" mx-auto object-center"
               alt=" "

@@ -27,7 +27,7 @@ const SearchResult = () => {
               <p className="pt-2 pl-6">Serving for: 2 persons</p>
             </div>
             <button className="bg-grey w-[150px] min-h-[40px] absolute right-12 shadow-md bottom-12 rounded-xl hover:bg-white hover:border-[1px] hover:border-gray-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-              <Link href="/recipies/recipe" className="">
+              <Link href="/recipe" className="">
                 View recipe
               </Link>
             </button>
