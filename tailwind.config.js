@@ -24,56 +24,56 @@ module.exports = {
 
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
-  },
+    },
     extend: {
       colors: {
-        red: "#B04137",
-        lightgrey: "#F6F4F2",
-        grey: "#E7E2DE",
-        yellow: "#EED06C",
-    },
+        primary: "#B04137",
+        background: "#F6F4F2",
+        accent: "#E7E2DE",
+        action: "#EED06C",
+      },
       fontFamily: {
         sans: ["var(--font-rubik)"],
         mono: ["var(--font-poppins)"],
-        satisfy: ['Satisfy', 'cursive'],
-      }, 
+        satisfy: ["Satisfy", "cursive"],
+      },
       borderRadius: {
         default: "4px",
         large: "12px",
-    },
-    padding: {
+      },
+      padding: {
         sm: "8px",
         md: "16px",
         lg: "24px",
         xl: "48px",
-    },
-    spacing: {
+      },
+      spacing: {
         sm: "8px",
         md: "16px",
         lg: "24px",
         xl: "48px",
-    },
-    maxWidth: {
+      },
+      maxWidth: {
         1: "100%",
         "3/4": "75%",
         "1/2": "50%",
         "1/4": "25%",
-        "1/5": "20%"
-    },
-    maxHeight: {
+        "1/5": "20%",
+      },
+      maxHeight: {
         1: "100%",
         "3/4": "75%",
         "1/2": "50%",
         "1/4": "25%",
-        "1/5": "20%"
-    },
-    minWidth: {
+        "1/5": "20%",
+      },
+      minWidth: {
         1: "100%",
         "3/4": "75%",
         "1/2": "50%",
         "1/4": "25%",
-        "1/5": "20%"
-    },
+        "1/5": "20%",
+      },
     },
   },
   plugins: [],

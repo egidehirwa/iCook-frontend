@@ -6,9 +6,9 @@ export default function RecipeThumbnail() {
     <Image
       src={RecipeImage}
       alt="image"
-      width="200"
-      height="200"
-      className="w-2/5 rounded-md"
+      width="full"
+      height="full"
+      className="rounded-md"
     />
   );
 }
