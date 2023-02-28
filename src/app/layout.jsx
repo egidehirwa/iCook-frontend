@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
           <Cursor />
           <Header />
           <main className="flex-grow">{children}</main>
-          <Footer />
           <BackToTopButton />
+          <Footer />
         </div>
       </body>
     </html>
