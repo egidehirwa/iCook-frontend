@@ -8,12 +8,12 @@ import icon_fork from "src/public/icon_fork.svg";
 const SearchResult = () => {
   return (
     <div className="container mx-auto lg:py-[40px]">
-      <h3 className="text-[24px]">Search result: Tiramisu</h3>
+      <h3 className="text-2xl">Search result: Tiramisu</h3>
       <div className="flex flex-col lg:flex-row py-[32px]">
         <Image src={test} alt="test photo" className="lg:w-1/3" />
         <div className="bg-white shadow-md pb-8 lg:w-1/2 lg:ml-[-50px] lg:my-[30px] relative">
           <div className="flex flex-col pl-24 text-[16px]">
-            <h2 className="text-[32px] py-[24px]">Classic Tiramisu</h2>
+            <h2 className="text-3xl py-[24px]">Classic Tiramisu</h2>
             <div className="flex flex-row">
               <Image src={icon_hat} alt="icon_hat" className="" />
               <p className="pt-2 pl-6">Cooking Time: 15 minutes</p>
