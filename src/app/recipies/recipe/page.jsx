@@ -1,9 +1,9 @@
-import RecipeDescription from "@/components/recipeSingle/recipeDescription";
-import RecipeInformations from "@/components/recipeSingle/recipeInformations";
-import RecipeIngredients from "@/components/recipeSingle/recipeIngredients";
-import RecipeInstructions from "@/components/recipeSingle/recipeInstructions";
-import RecipeDetails from "@/components/recipeSingle/recipeDetails";
-import RecipeThumbnail from "@/components/recipeSingle/recipeThumbnail";
+import RecipeDescription from "@/components/recipeDescription";
+import RecipeInformations from "@/components/recipeInformations";
+import RecipeIngredients from "@/components/recipeIngredients";
+import RecipeInstructions from "@/components/recipeInstructions";
+import RecipeDetails from "@/components/recipeDetails";
+import RecipeThumbnail from "@/components/recipeThumbnail";
 
 export default function Recipe() {
   return (
