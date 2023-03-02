@@ -2,10 +2,6 @@
 
 
 import React from "react";
-import Image from "next/image";
-import logo from "/src/public/icook-logo.png";
-
-
 
 const IngredientCard = ({ searchValue, onDelete })=>{
    

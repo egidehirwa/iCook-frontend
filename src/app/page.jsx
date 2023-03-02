@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center  self-center  ">
           <IngredientApp/>
-          <SearchRecipe/>
+          
         </div>
       </div>
     </main>
