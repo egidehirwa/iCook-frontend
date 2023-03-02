@@ -1,11 +1,12 @@
-'use client';
+"use client";
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import SearchBar from "./searchbar";
 import IngredientCard from "./ingredientCard";
 import SearchRecipe from "./searchRecipe";
 
 const IngredientApp = () => {
+
     const [searchValue, setSearchValue] = useState('');
     const [ingredients, setIngredients] = useState([]);
 
@@ -48,4 +49,5 @@ const IngredientApp = () => {
 }
 
 
-export default IngredientApp
+
+export default IngredientApp;
