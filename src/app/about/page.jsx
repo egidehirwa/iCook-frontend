@@ -97,7 +97,7 @@ export default function About() {
             best experience for our users.
           </p>
         </div>
-        <div className="flex gap-4 py-2 justify-center">
+        <div className="flex gap-4 py-2 justify-between">
           <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className="font-satisfy text-xl mb-6 text-center">
               Audric
@@ -152,7 +152,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-between">
           <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <h2 className="font-satisfy text-xl mb-6 text-center">
               Egide
