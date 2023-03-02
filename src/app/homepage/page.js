@@ -1,9 +1,9 @@
-import SearchBar from "@/components/searchbar";
+import SearchRecipe from "@/components/HomePageApp/searchRecipe";
 
 export default function homepage() {
     return (
       <main>
-        <SearchBar />
+        <SearchRecipe />
       </main>
     );
   }
