@@ -3,16 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  /*   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "i.ibb.co",
-        port: "",
-        pathname: "/**",
-      },
-    ],
-  }, */
+  images: {
+    domains: ['spoonacular.com'],
+  },
 };
 
 module.exports = nextConfig;
