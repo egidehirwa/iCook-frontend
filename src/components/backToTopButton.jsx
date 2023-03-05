@@ -27,7 +27,7 @@ export default function BackToTopButton() {
   return (
     <button
       onClick={handleClick}
-      className={`fixed bottom-0 right-0 mb-6 mr-6 p-4 bg-yellow text-black shadow-md rounded-xl hover:bg-lightgrey ${
+      className={`fixed bottom-0 right-0 mb-6 mr-6 p-4 bg-yellow text-black shadow-md rounded-xl hover:bg-lightgrey hover:border-gray-600 ${
         showButton ? "block" : "hidden"
       }`}
     >

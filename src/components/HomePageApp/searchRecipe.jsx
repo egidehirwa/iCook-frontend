@@ -37,7 +37,7 @@ const SearchRecipe = ({handleRecipeSearch, ingredients, onSearch }) => {
   };
   return (
     <div className="flex justify-center flex-col items-center border h-28 w-64 rounded-xl bg-white ml-5">
-      <div className="flex justify-between flex-row pb-4">
+      <div className="flex justify-around flex-row pb-4">
         <h3 className="ml-6">How many recipes?</h3>
         <input
           className="w-1/3"

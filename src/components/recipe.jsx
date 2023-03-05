@@ -6,11 +6,13 @@ import icon_fork from "src/public/icon_fork.svg";
 
 const Recipe = ({title,cookingTime, preppingTime, servingFor, image}) => {
   return (
-    <div className="flex flex-col lg:flex-row py-[32px]">
-      <Image src={image} width={350} height={350} alt="test photo" className="lg:w-1/3" />
+    <div className="container min-w-full flex flex-col lg:flex-row py-[32px]">
+      <Image src={image} width={500} height={450} alt="test photo" className="" />
       <div className="bg-white shadow-md pb-8 lg:w-1/2 lg:ml-[-50px] lg:my-[30px] relative">
-        <div className="flex flex-col pl-24 text-[16px]">
-          <h2 className="text-3xl py-[24px]">{title}</h2>
+        <div className="flex flex-col text-[16px]">
+          <h2 className="text-3xl mx-8 py-[24px]">{title}</h2>
+          </div>
+          <div className="pl-24">
           <div className="flex flex-row">
             <Image src={icon_hat} alt="icon_hat" className="" />
             <p className="pt-2 pl-6">Cooking time : {cookingTime}</p>

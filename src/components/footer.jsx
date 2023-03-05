@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-grey min-h-[80px] text-[15px] uppercase">
+    <div className="bg-grey min-h-[80px] text-[15px] uppercase justify-end">
       <div className="container mx-auto flex flex-col lg:flex-row">
         <div className='lg:w-1/2 flex py-6 justify-center lg:justify-start'>
           <p>©2023 - ICook. All rights reserved.</p>

@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="">{children}</main>
+          <main className="flex-grow">{children}</main>
           <BackToTopButton />
           <Footer />
         </div>
