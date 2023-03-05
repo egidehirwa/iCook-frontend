@@ -13,15 +13,11 @@ const Header = () => {
         />
       </Link>
       <div className="flex flex-col lg:flex-row lg:justify-around lg:w-1/2 pt-6 border-gray-600">
-        <button className="bg-yellow shadow-md mt-4 px-8 min-h-[40px] hover:border-[1px] hover:border-gray-600 rounded-xl hover:bg-lightgrey transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-          <Link href="/search-result" className="">
-            Recipe by category
-          </Link>
+        <button className="bg-yellow shadow-md mt-4 px-8 min-h-[40px] min-w-[140px] hover:border-[1px] hover:border-gray-600 rounded-xl hover:bg-lightgrey transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+        <Link href="/about">About us</Link>
         </button>
         <button className="bg-yellow shadow-md mt-4 px-8 min-h-[40px] hover:border-[1px] hover:border-gray-600 rounded-xl hover:bg-lightgrey transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-          <Link href="/RandomRecipe" className="">
-            Random Recipe
-          </Link>
+          <Link href="/RandomRecipe">Get random</Link>
         </button>
       </div>
     </div>

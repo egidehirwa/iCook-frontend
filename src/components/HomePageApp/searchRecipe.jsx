@@ -36,10 +36,11 @@ const SearchRecipe = ({handleRecipeSearch, ingredients, onSearch }) => {
     onSearch(searchParams.toString());
   };
   return (
-    <div className="flex justify-center flex-col items-center border h-28 w-64 rounded-3xl bg-white ml-5">
-      <div className="flex flex-col pb-2">
-        <h3>How Many Recepies do you want ?</h3>
+    <div className="flex justify-center flex-col items-center border h-28 w-64 rounded-xl bg-white ml-5">
+      <div className="flex justify-between flex-row pb-4">
+        <h3 className="ml-6">How many recipes?</h3>
         <input
+          className="w-1/3"
           type="number"
           placeholder="Enter a number"
           onChange={handleRecipeCountChange}
@@ -48,7 +49,7 @@ const SearchRecipe = ({handleRecipeSearch, ingredients, onSearch }) => {
       </div>
 
       <button
-        className="border-2 border-red rounded-2xl pl-2 pr-2 bg-red  text-white transition-colors transform hover:bg-white hover:text-red hover:border-2 hover:border-red"
+        className="bg-red text-white shadow-md px-8 min-h-[40px] rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         onClick={handleSearch}
       >
         Search for recipes

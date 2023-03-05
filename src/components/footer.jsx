@@ -9,7 +9,6 @@ const Footer = () => {
         </div>
         <div className="lg:w-1/2 pb-4 lg:py-6 flex justify-around">
           <Link href="/privacy policy">Privacy policy</Link>
-          <Link href="/about">About us</Link>
         </div>
       </div>
     </div>
