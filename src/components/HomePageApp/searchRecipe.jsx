@@ -52,7 +52,7 @@ const SearchRecipe = ({ handleRecipeSearch, ingredients, onSearch }) => {
         className="bg-red text-white shadow-md px-8 min-h-[40px] rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
         onClick={handleSearch}
       >
-        Search for recipes
+        Find Recipes
       </button>
     </div>
   );

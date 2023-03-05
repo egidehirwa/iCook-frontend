@@ -9,7 +9,7 @@ import Recipe from "src/components/recipe.jsx";
 const IngredientApp = () => {
   const [searchValue, setSearchValue] = useState("");
   const [ingredients, setIngredients] = useState([]);
-  const [recipies, setRecipies] = useState([]);
+  const [recipes, setRecipes] = useState([]);
 
   const handleDeleteIngredient = (id) => {
     setIngredients(ingredients.filter((ingredient) => ingredient.id !== id));
@@ -36,7 +36,7 @@ const IngredientApp = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        setRecipies(data.result);
+        setRecipes(data.result);
       });
   };
 
@@ -65,7 +65,7 @@ const IngredientApp = () => {
         <SearchRecipe handleRecipeSearch={handleRecipeSearch} />
       </div>
       <div className="flex flex-col">
-        {recipies.map((recipe) => (
+        {recipes.map((recipe) => (
           <Recipe title={recipe.title} image={recipe.image} />
         ))}
       </div>
