@@ -29,7 +29,7 @@ const SearchBar = ({ handleSearchSubmit }) => {
         onChange={handleInputChange}
       />
       <button type="submit" className="rounded-r-md bg-gray-300 h-12 pr-2">
-        <PlusIcon className="text-gray-700 h-6 w-6" />
+        <PlusIcon className="text-gray-700 ml-2 h-6 w-6" />
       </button>
     </form>
   );

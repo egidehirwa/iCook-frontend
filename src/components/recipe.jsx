@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import test from "src/public/test.jpeg";
 import icon_hat from "src/public/icon_hat.svg";
 import icon_clock from "src/public/icon_clock.svg";
 import icon_fork from "src/public/icon_fork.svg";
@@ -8,7 +7,7 @@ import icon_fork from "src/public/icon_fork.svg";
 const Recipe = ({title,cookingTime, preppingTime, servingFor, image}) => {
   return (
     <div className="flex flex-col lg:flex-row py-[32px]">
-      <Image src={image} width={300} height={300} alt="test photo" className="lg:w-1/3" />
+      <Image src={image} width={350} height={350} alt="test photo" className="lg:w-1/3" />
       <div className="bg-white shadow-md pb-8 lg:w-1/2 lg:ml-[-50px] lg:my-[30px] relative">
         <div className="flex flex-col pl-24 text-[16px]">
           <h2 className="text-3xl py-[24px]">{title}</h2>
