@@ -24,7 +24,7 @@ const SearchBar = ({ handleSearchSubmit }) => {
         type="text"
         id="ingredient-search"
         placeholder="Type your ingredients ..."
-        className="bg-gray-300 rounded-l-md w-96 pl-2 outline-0 placeholder-gray-400 placeholder h-12"
+        className="bg-gray-300 rounded-l-md w-96 pl-2 outline-0 placeholder-gray-400 placeholder h-12  ml-12 md:ml-0"
         name="ingredientSearch"
         onChange={handleInputChange}
       />

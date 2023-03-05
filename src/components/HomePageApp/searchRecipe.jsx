@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-const SearchRecipe = ({handleRecipeSearch, ingredients, onSearch }) => {
+const SearchRecipe = ({ handleRecipeSearch, ingredients, onSearch }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const SearchRecipe = ({handleRecipeSearch, ingredients, onSearch }) => {
   };
 
   const handleSearch = () => {
-    handleRecipeSearch(recipeCount)
+    handleRecipeSearch(recipeCount);
     const ingredientArray = [];
 
     if (!Array.isArray(ingredients)) return;
@@ -36,7 +36,7 @@ const SearchRecipe = ({handleRecipeSearch, ingredients, onSearch }) => {
     onSearch(searchParams.toString());
   };
   return (
-    <div className="flex justify-center flex-col items-center border h-28 w-64 rounded-xl bg-white ml-5">
+    <div className="flex justify-center flex-col items-center my-12 md:my-0 border h-28 w-64 rounded-xl bg-white ml-12">
       <div className="flex justify-around flex-row pb-4">
         <h3 className="ml-6">How many recipes?</h3>
         <input

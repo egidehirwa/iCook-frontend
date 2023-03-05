@@ -42,7 +42,7 @@ const IngredientApp = () => {
 
   return (
     <div flex flex-col>
-      <div className="flex flew-row">
+      <div className="flex flex-col my-12 md:flex-row">
         <div className="flex flex-col">
           <div>
             <SearchBar
