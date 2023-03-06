@@ -52,14 +52,14 @@ const IngredientApp = () => {
             />
           </div>
           <div className="flex justify-center">
-            {ingredients.map((ingredient, index) => (
-              <IngredientCard
-                key={ingredient.id}
-                id={ingredient.id}
-                searchValue={ingredient.name}
-                onDelete={() => handleDeleteIngredient(ingredient.id)}
-              />
-            ))}
+           {ingredients.map((ingredient) => (
+           <IngredientCard
+            key={ingredient.id}
+            id={ingredient.id}
+            searchValue={ingredient.name}
+            onDelete={() => handleDeleteIngredient(ingredient.id)}
+          />
+          ))}
           </div>
         </div>
         <SearchRecipe handleRecipeSearch={handleRecipeSearch} />
