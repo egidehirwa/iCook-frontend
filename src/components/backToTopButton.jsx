@@ -13,8 +13,8 @@ export default function BackToTopButton() {
   }
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   function handleClick() {
@@ -35,4 +35,3 @@ export default function BackToTopButton() {
     </button>
   );
 }
-

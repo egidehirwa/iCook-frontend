@@ -1,72 +1,49 @@
-// 'use client';
+'use client';
 
-// import { useState, useEffect } from 'react';
-// import Cursor from "src/public/cursor.svg";
-// import Image from "next/image";
+import { useState, useEffect } from 'react';
 
+const CustomCursor = () => {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
 
-// const CustomCursor = () => {
-//   const [position, setPosition] = useState({ x: 0, y: 0 });
+  useEffect(() => {
+    const cursor = document.querySelector('.custom-cursor');
+    const links = document.querySelectorAll('a, button');
 
-// useEffect(() => {
-//     const setFromEvent = (e) => setPosition({ x: e.clientX, y: e.clientY });
-//     window.addEventListener("mousemove", setFromEvent);
-//     return () => window.removeEventListener("mousemove", setFromEvent);
-//   }, []);
+    const moveCursor = (e) => {
+      const { clientX, clientY } = e;
+      setPosition({ x: clientX, y: clientY });
+    };
 
-//   return (
-//     <div
-//       className="fixed top-0 left-0 z-50 w-16 h-16 pointer-events-none"
-//       style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
-//     >
-//       <Image src={Cursor} alt="Custom Cursor" className="w-full h-full object-contain" />
-//     </div>
-//   );
-// };
+    links.forEach((link) => {
+      link.addEventListener('mouseover', () => {
+        cursor.classList.add('hovered');
+      });
+      link.addEventListener('mouseleave', () => {
+        cursor.classList.remove('hovered');
+      });
+    });
 
-// export default CustomCursor;
+    window.addEventListener('mousemove', moveCursor);
 
-// // 'use client';
+    return () => {
+      window.removeEventListener('mousemove', moveCursor);
+      links.forEach((link) => {
+        link.removeEventListener('mouseover', () => {
+          cursor.classList.add('hovered');
+        });
+        link.removeEventListener('mouseleave', () => {
+          cursor.classList.remove('hovered');
+        });
+      });
+    };
+  }, []);
 
-// // import { useState, useEffect } from 'react';
-// // import Cursor from "src/public/cursor.svg";
-// // import CursorHover from "src/public/cursor.svg"; // New hover image import
-// // import Image from "next/image";
+  return (
+    <>
+      <div className="custom-cursor" style={{ left: position.x, top: position.y }}></div>
+    </>
+  );
+};
 
+export default CustomCursor;
 
-// // const CustomCursor = () => {
-// //   const [position, setPosition] = useState({ x: 0, y: 0 });
-// //   const [hover, setHover] = useState(false); // New hover state
-
-// //   useEffect(() => {
-// //     const setFromEvent = (e) => setPosition({ x: e.clientX, y: e.clientY });
-// //     window.addEventListener("mousemove", setFromEvent);
-// //     return () => window.removeEventListener("mousemove", setFromEvent);
-// //   }, []);
-
-// //   const handleMouseEnter = () => {
-// //     setHover(true);
-// //   };
-
-// //   const handleMouseLeave = () => {
-// //     setHover(false);
-// //   };
-
-// //   return (
-// //     <div
-// //       className="fixed top-0 left-0 z-50 w-16 h-16 pointer-events-none"
-// //       style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
-// //     >
-// //       <Image
-// //         src={hover ? CursorHover : Cursor} // Use different image based on hover state
-// //         alt="Custom Cursor"
-// //         className="w-full h-full object-contain"
-// //         onMouseEnter={handleMouseEnter}
-// //         onMouseLeave={handleMouseLeave}
-// //       />
-// //     </div>
-// //   );
-// // };
-
-// // export default CustomCursor;
- 
