@@ -20,7 +20,7 @@ export default function About() {
     <main className="container mx-auto space-y-8">
       <section className="space-y-4 p-8">
         <div className="space-y-4">
-          <h3 className="text-red text-3xl text-center">Who We Are</h3>
+          <h3 className="text-3xl text-center py-6">Who We Are</h3>
           <p className=" text-center">
             We are a team of passionate individuals who are dedicated to
             reducing food waste while making cooking easy and enjoyable. We
@@ -34,8 +34,8 @@ export default function About() {
             positive impact on the environment.
           </p>
         </div>
-        <div className="flex gap-4 justify-center">
-          <div className="bg-white rounded-lg shadow-md max-w-sm rounded overflow-hidden shadow-lg p-6">
+        <div className="flex gap-4 justify-center py-6">
+          <div className="bg-white max-w-sm rounded overflow-hidden shadow-lg p-6">
             <Image
               className=" mx-auto object-center"
               alt=" "
@@ -48,7 +48,7 @@ export default function About() {
             {/* <GrTarget  /> */}
             {/* <img src="iCook-frontend/src/assets/mission.png"></img> */}
             <h2 className="text-lg text-center font-medium">Mission</h2>
-            <p className="mt-2 text-gray-400">
+            <p className="mt-2 text-gray-400 text-center">
               Our mission is to simplify and improve the culinary lives of our
               users by providing a practical app that helps reduce food waste.
               <br />
@@ -56,7 +56,7 @@ export default function About() {
               ingredients that are already present in your fridge.
             </p>
           </div>
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
             <Image
               className=" mx-auto object-center"
               alt=" "
@@ -69,21 +69,22 @@ export default function About() {
             {/* <GrView  /> */}
 
             <h2 className="text-lg text-center font-medium">Vision</h2>
-            <p className="mt-2 text-gray-400">
+            <p className="mt-2 text-gray-400 text-center">
               Our vision is to create an online community that shares the same
               values in reducing food waste, providing a user-friendly,
-              intuitive, and personalized experience. <br /> We strive to become
-              the go-to choice for anyone looking for an efficient solution to
+              intuitive, and personalized experience. 
+              <br />
+               We strive to become the go-to choice for anyone looking for an efficient solution to
               cook delicious meals while saving time and money.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="space-y-4 p-4">
+      <section className="space-y-4 p-4 pb-24">
         <div className="space-y-4">
-          <h3 className="text-red  text-3xl text-center">Team</h3>
-          <p className="text-center">
+          <h3 className="text-3xl text-center pb-6">Team</h3>
+          <p className="text-center pb-6">
             We are a small but dedicated team of 6 passionate individuals who
             share the same values and vision of reducing food waste and making
             cooking more accessible and enjoyable. With our diverse backgrounds
@@ -96,9 +97,9 @@ export default function About() {
             best experience for our users.
           </p>
         </div>
-        <div className="flex gap-4">
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className=" font-satisfy text-lg text-center text-red font-medium">
+        <div className="flex gap-4 py-2 justify-between">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
+            <h2 className="font-satisfy text-xl mb-6 text-center">
               Audric
             </h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
@@ -110,16 +111,13 @@ export default function About() {
                 height={350}
               />
             </div>
-            <p className="mt-2 text-gray-400">
-              Sweet dragée gummies wafer dragée candy gingerbread sweet. Icing
-              jelly beans soufflé icing gingerbread danish tootsie roll biscuit
-              chupa chups. Halvah cake sweet roll powder gummies pastry.
-              Liquorice croissant bonbon cookie cake marzipan.
+            <p className="mt-6 text-gray-400 text-center">
+             Back-end Developer 
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className=" font-satisfy text-lg text-red text-center font-medium">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
+            <h2 className="font-satisfy text-xl mb-6 text-center">
               Daria
             </h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
@@ -127,20 +125,17 @@ export default function About() {
                 src={Daria}
                 alt=""
                 layoutobjectFit="contain"
-                // width={350}
-                // height={350}
+                width={350}
+                height={350}
               />
             </div>
-            <p className="mt-2 text-gray-400">
-              Sweet dragée gummies wafer dragée candy gingerbread sweet. Icing
-              jelly beans soufflé icing gingerbread danish tootsie roll biscuit
-              chupa chups. Halvah cake sweet roll powder gummies pastry.
-              Liquorice croissant bonbon cookie cake marzipan.
+            <p className="mt-6 text-gray-400 text-center">
+              Front-end Developer 
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className=" font-satisfy text-lg text-red  text-center font-medium">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
+            <h2 className="font-satisfy text-xl mb-6 text-center">
               Kawtar
             </h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
@@ -149,20 +144,17 @@ export default function About() {
                 alt=""
                 layoutobjectFit="contain"
                 width={350}
-                height={350}
+                height={300}
               />
             </div>
-            <p className="mt-2 text-gray-400">
-              Sweet dragée gummies wafer dragée candy gingerbread sweet. Icing
-              jelly beans soufflé icing gingerbread danish tootsie roll biscuit
-              chupa chups. Halvah cake sweet roll powder gummies pastry.
-              Liquorice croissant bonbon cookie cake marzipan.
+            <p className="mt-6 text-gray-400 text-center">
+              Front-end Developer 
             </p>
           </div>
         </div>
-        <div className="flex gap-4">
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className=" font-satisfy text-lg text-red  text-center font-medium">
+        <div className="flex gap-4 justify-between">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
+            <h2 className="font-satisfy text-xl mb-6 text-center">
               Egide
             </h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
@@ -171,19 +163,16 @@ export default function About() {
                 alt=""
                 layoutobjectFit="contain"
                 width={350}
-                height={350}
+                height={300}
               />
             </div>
-            <p className="mt-2 text-gray-400">
-              Sweet dragée gummies wafer dragée candy gingerbread sweet. Icing
-              jelly beans soufflé icing gingerbread danish tootsie roll biscuit
-              chupa chups. Halvah cake sweet roll powder gummies pastry.
-              Liquorice croissant bonbon cookie cake marzipan.
+            <p className="mt-6 text-gray-400 text-center">
+              Front-end Developer 
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className="font-satisfy text-lg text-red text-center font-medium">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
+            <h2 className="font-satisfy text-xl mb-6 text-center">
               Edouard
             </h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
@@ -195,16 +184,13 @@ export default function About() {
                 height={350}
               />
             </div>
-            <p className="mt-2 text-gray-400">
-              Sweet dragée gummies wafer dragée candy gingerbread sweet. Icing
-              jelly beans soufflé icing gingerbread danish tootsie roll biscuit
-              chupa chups. Halvah cake sweet roll powder gummies pastry.
-              Liquorice croissant bonbon cookie cake marzipan.
+            <p className="mt-6 text-gray-400 text-center">
+              Front-end Developer 
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md p-6 max-w-sm rounded overflow-hidden shadow-lg">
-            <h2 className=" font-satisfy text-lg text-red  text-center font-medium">
+          <div className="bg-white p-6 max-w-sm rounded overflow-hidden shadow-lg">
+            <h2 className="font-satisfy text-xl mb-6 text-center">
               Youssef
             </h2>
             <div style={{ borderRadius: "100%", overflow: "hidden" }}>
@@ -216,11 +202,8 @@ export default function About() {
                 height={350}
               />
             </div>
-            <p className="mt-2 text-gray-400">
-              Sweet dragée gummies wafer dragée candy gingerbread sweet. Icing
-              jelly beans soufflé icing gingerbread danish tootsie roll biscuit
-              chupa chups. Halvah cake sweet roll powder gummies pastry.
-              Liquorice croissant bonbon cookie cake marzipan.
+            <p className="mt-6 text-gray-400 text-center">
+              Back-end Developer 
             </p>
           </div>
         </div>
